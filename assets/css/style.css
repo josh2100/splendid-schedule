@@ -13,6 +13,7 @@ textarea{
   padding: 10px;
 }
 
+/* Header */
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -21,6 +22,7 @@ textarea{
   border-bottom: 10px solid black;
 }
 
+/* Header End */
 .description{
   white-space: pre-wrap;
 }
