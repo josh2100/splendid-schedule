@@ -25,13 +25,11 @@ let renderColor = () => {
       $(this).addClass("present");
       $(this).removeClass("past");
       $(this).removeClass("future");
-    }
-    if (timeBlock > currentHour) {
+    } else if (timeBlock > currentHour) {
       $(this).addClass("future");
       $(this).removeClass("present");
       $(this).removeClass("past");
-    }
-    if (timeBlock < currentHour) {
+    } else {
       $(this).addClass("past");
       $(this).removeClass("future");
       $(this).removeClass("present");
@@ -65,3 +63,5 @@ $(".saveBtn").on("click", function () {
 ///variables
 //functions
 //event listeners
+// change save to icons
+// add interval to update colors
