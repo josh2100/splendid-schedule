@@ -1,24 +1,15 @@
-# Work Day Scheduler Starter Code
+# Splendid Schedule
 
+Splendid Schedule is a web application that allows daily planning. The current day is displayed at the top. Each hour from 9 AM to 5PM has a space available to enter text. After entering the event, click the save icon on the right to save your events to your local storage so they persist any time you open up the page again.
 
-user story
+I built this with HTML, JavaScript, jQuery, Moment.js, CSS, Bootstrap, Font Awesome and Google Fonts. Classes are added and removed dynamically as the day progresses to render three different colors to indicate if the events are in the past, present, or future. If the page is inactive, the colors will update every 15 minutes.
 
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
+Please submit an issue if you see a bug or a suggested improvement.
 
-acceptance criteria
+## Deployment
 
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with time blocks for standard business hours
-WHEN I view the time blocks for that day
-THEN each time block is color-coded to indicate whether it is in the past, present, or future
-WHEN I click into a time block
-THEN I can enter an event
-WHEN I click the save button for that time block
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
+https://josh2100.github.io/splendid-schedule/
+
+## Screenshot
+
+![Splendid Schedule](./assets/images/screenshot.png)
